@@ -1,0 +1,139 @@
+ @media only screen and (min-width: 601px) {
+        body {
+            font-family: cursive;
+            text-align: center;
+            margin: 0;
+            background-color: #EEEEEE;
+            color: #CD5C08;
+            background: url(https://png.pngtree.com/background/20211217/original/pngtree-stationary-school-education-background-picture-image_1594834.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 25px;
+            margin-top: 90px;
+            margin-bottom: 10px;
+            color: #29ADB2;
+            text-shadow: 1px 1px 2px black, 0 0 25px #76EAD7, 0 0 5px #32E0C4;
+        }
+         label {
+            font-size: 19px;
+            margin-right: 5px;
+        }
+
+        select,
+        button {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        select {
+            background-color: #fff;
+            color: #333;
+            
+
+        }
+
+        button {
+            background-color: #F0997D;
+            color: #fff;
+            transition: background-color 0.3s ease;
+            margin-left: 10px;
+        }
+
+        button:hover {
+            background-color: #A75D5D;
+        }
+
+        table {
+            width: 30%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            color: #333;
+            box-shadow: 10px 10px 5px #F0997D;
+        }
+
+        td,
+        th {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        
+        
+    }  
+   
+    @media only screen and (max-width: 600px) {
+    body{
+        font-family: cursive;
+        text-align: center;
+        margin: 0;
+        background-color: #EEEEEE;
+        color: #CD5C08;
+        background:url(https://w0.peakpx.com/wallpaper/452/258/HD-wallpaper-maths-android-black-htc-ios-iphone-lenovo-math-samsung-white-thumbnail.jpg);
+        background-size: cover;
+    }
+    h1 {
+        font-size: 35px;
+        margin-top: 60px;
+        color:black;
+        background-color: white;
+       text-shadow: 1px 1px 2px white, 0 0 25px grey, 0 0 5px grey; 
+    }
+
+    label {
+        font-size: 25px;
+        text-shadow: 1px 1px 2px black, 0 0 25px darkgrey, 0 0 5px grey;
+        color: white;
+    }
+    select{
+        background-color: white;
+        color:black;
+    }
+
+    select,
+    button {
+        font-size: 14px;
+        width: 50%; 
+        border-radius:5px;
+    }
+    button {
+            color: #fff;
+            transition: background-color 0.3s ease;
+            border: none;
+            margin-left: 0; 
+            margin-top: 13px;
+            background-color:grey;
+            border-radius:5px;
+        
+        }
+
+    button:visited {
+            background-color: #A75D5D;
+        }
+    table {
+        width: 80%; 
+        margin: 10px auto; 
+        border-collapse: collapse;
+        background-color: white;
+        color: #333;
+        box-shadow: 10px 10px 5px grey;
+         
+    }
+
+    td,
+    th {
+        padding: 8px; 
+    }
+}
